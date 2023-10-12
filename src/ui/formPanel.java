@@ -4,6 +4,8 @@
  */
 package ui;
 
+import model.Patient;
+
 /**
  *
  * @author Wajid
@@ -240,7 +242,7 @@ public class formPanel extends javax.swing.JPanel {
                     .addComponent(photoLabel))
                 .addGap(12, 12, 12)
                 .addComponent(submitButton, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap(26, Short.MAX_VALUE))
+                .addContainerGap(18, Short.MAX_VALUE))
         );
     }// </editor-fold>//GEN-END:initComponents
 
@@ -287,12 +289,15 @@ public class formPanel extends javax.swing.JPanel {
     private void submitButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_submitButtonActionPerformed
         // TODO add your handling code here:
         // System.out.println("Hello");
-        String fname = fnameTextField.getText();
-        String lname = lnameTextField.getText();
-        String age = ageTextField.getText();
-        String email = emailTextField.getText();
-        String message = messageTextBox.getText();
-        String uploadImage = photoTextField.getText();
+        Patient newPatient = new Patient();
+        newPatient.setFname(fnameTextField.getText());
+        newPatient.setLname(lnameTextField.getText());
+        newPatient.setAge(ageTextField.getText());
+        newPatient.setEmail(emailTextField.getText());
+        newPatient.setMessage(messageTextBox.getText());
+        newPatient.setUploadImage(photoTextField.getText());
+        newPatient.setGender(genderButtonGroup.getSelection().getActionCommand());
+        newPatient.setType(typeComboBox.getSelectedItem().toString());
         // System.out.println(fname+ " " +lname+ " " +age+ " " +email);
         // System.out.println(message);
         /*ImageIcon icon = new ImageIcon(uploadImage);
