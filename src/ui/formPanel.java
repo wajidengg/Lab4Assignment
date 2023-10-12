@@ -4,6 +4,8 @@
  */
 package ui;
 
+import java.awt.CardLayout;
+import javax.swing.JPanel;
 import model.Patient;
 
 /**
@@ -15,8 +17,10 @@ public class formPanel extends javax.swing.JPanel {
     /**
      * Creates new form formPanel
      */
-    public formPanel() {
+    private JPanel bottomPanel;
+    public formPanel(JPanel bottomPanel) {
         initComponents();
+        this.bottomPanel = bottomPanel;
     }
 
     /**
@@ -298,6 +302,11 @@ public class formPanel extends javax.swing.JPanel {
         newPatient.setUploadImage(photoTextField.getText());
         newPatient.setGender(genderButtonGroup.getSelection().getActionCommand());
         newPatient.setType(typeComboBox.getSelectedItem().toString());
+        
+        viewPanel newViewPanel = new viewPanel(newPatient);
+        bottomPanel.add(newViewPanel);
+        CardLayout layout = (CardLayout) bottomPanel.getLayout();
+        layout.next(bottomPanel);
         // System.out.println(fname+ " " +lname+ " " +age+ " " +email);
         // System.out.println(message);
         /*ImageIcon icon = new ImageIcon(uploadImage);

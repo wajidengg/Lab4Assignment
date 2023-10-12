@@ -107,7 +107,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void formButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_formButtonActionPerformed
         // TODO add your handling code here:
-        formPanel newformPanel = new formPanel();
+        formPanel newformPanel = new formPanel(bottomPanel);
         bottomPanel.add(newformPanel);
         CardLayout layout = (CardLayout) bottomPanel.getLayout();
         layout.next(bottomPanel);

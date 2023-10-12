@@ -4,6 +4,8 @@
  */
 package ui;
 
+import model.Patient;
+
 /**
  *
  * @author Wajid
@@ -13,8 +15,11 @@ public class viewPanel extends javax.swing.JPanel {
     /**
      * Creates new form viewPanel
      */
-    public viewPanel() {
+    private Patient newPatient;
+    public viewPanel(Patient newPatient) {
         initComponents();
+        this.newPatient = newPatient;
+        populateData();
     }
 
     /**
@@ -221,4 +226,8 @@ public class viewPanel extends javax.swing.JPanel {
     private javax.swing.JComboBox<String> typeComboBox;
     private javax.swing.JLabel typeLabel;
     // End of variables declaration//GEN-END:variables
+
+    private void populateData() {
+        
+    }
 }
