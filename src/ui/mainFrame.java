@@ -116,7 +116,7 @@ public class mainFrame extends javax.swing.JFrame {
 
     private void viewButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewButtonActionPerformed
         // TODO add your handling code here:
-        viewPanel newViewPanel = new viewPanel();
+        viewPanel newViewPanel = new viewPanel(null);
         bottomPanel.add(newViewPanel);
         CardLayout layout = (CardLayout) bottomPanel.getLayout();
         layout.next(bottomPanel);

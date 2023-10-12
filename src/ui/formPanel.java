@@ -18,9 +18,9 @@ public class formPanel extends javax.swing.JPanel {
      * Creates new form formPanel
      */
     private JPanel bottomPanel;
-    public formPanel(JPanel bottomPanel) {
+    public formPanel(JPanel inputPanel) {
         initComponents();
-        this.bottomPanel = bottomPanel;
+        this.bottomPanel = inputPanel;
     }
 
     /**

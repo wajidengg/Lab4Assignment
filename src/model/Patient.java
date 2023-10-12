@@ -17,6 +17,7 @@ public class Patient {
     String uploadImage;
     String gender;
     String type;
+    String date;
 
     public String getFname() {
         return fname;
@@ -82,5 +83,12 @@ public class Patient {
         this.type = type;
     }
     
+    public String getDate() {
+        return date;
+    }
+
+    public void setDate(String date) {
+        this.date = date;
+    }
     
 }

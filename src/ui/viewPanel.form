@@ -21,82 +21,112 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
-              <Component id="titleLabel" min="-2" pref="434" max="-2" attributes="0"/>
-              <EmptySpace pref="134" max="32767" attributes="0"/>
-          </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="177" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Group type="103" alignment="0" groupAlignment="0" max="-2" attributes="0">
-                          <Component id="emailLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="messageLabel" alignment="0" max="32767" attributes="0"/>
-                          <Component id="photoLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                      <Component id="titleLabel" min="-2" pref="434" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="128" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="messageLabel" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="messageScrollPanel" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="fnameLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="fnameTextField" min="-2" pref="214" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="lnameLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="lnameTextField" min="-2" pref="214" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="ageLabel" min="-2" pref="91" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="ageTextField" min="-2" pref="214" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="genderLabel" min="-2" pref="76" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="genderTextField" min="-2" pref="214" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="emailLabel" min="-2" pref="49" max="-2" attributes="0"/>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Component id="emailTextField" min="-2" pref="214" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="dateLabel" max="32767" attributes="0"/>
+                                      <Component id="typeLabel" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="typeTextField" max="32767" attributes="0"/>
+                                      <Component id="dateTextField" pref="212" max="32767" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
                       </Group>
-                      <Component id="typeLabel" alignment="0" min="-2" pref="37" max="-2" attributes="0"/>
-                      <Component id="ageLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
-                      <Component id="lnameLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
-                      <Component id="fnameLabel" alignment="0" min="-2" pref="91" max="-2" attributes="0"/>
                   </Group>
-                  <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="lnameTextField" alignment="0" min="-2" pref="214" max="-2" attributes="0"/>
-                      <Component id="fnameTextField" alignment="0" min="-2" pref="214" max="-2" attributes="0"/>
-                      <Component id="ageTextField" alignment="0" min="-2" pref="214" max="-2" attributes="0"/>
-                      <Component id="emailTextField" alignment="0" min="-2" pref="214" max="-2" attributes="0"/>
-                      <Component id="typeComboBox" alignment="0" min="-2" pref="214" max="-2" attributes="0"/>
-                      <Component id="messageScrollPanel" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace pref="177" max="32767" attributes="0"/>
               </Group>
+              <EmptySpace max="-2" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
           <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
               <Component id="titleLabel" min="-2" max="-2" attributes="0"/>
-              <EmptySpace pref="464" max="32767" attributes="0"/>
-          </Group>
-          <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
-              <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="82" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="fnameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="fnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="lnameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="lnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="ageTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="ageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="-2" pref="93" max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="emailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="typeComboBox" alignment="3" min="-2" max="-2" attributes="0"/>
-                      <Component id="typeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace max="-2" attributes="0"/>
-                  <Group type="103" groupAlignment="0" attributes="0">
-                      <Component id="messageScrollPanel" alignment="0" min="-2" max="-2" attributes="0"/>
-                      <Component id="messageLabel" alignment="0" min="-2" max="-2" attributes="0"/>
-                  </Group>
-                  <EmptySpace min="46" pref="46" max="-2" attributes="0"/>
-                  <Component id="photoLabel" min="-2" max="-2" attributes="0"/>
-                  <EmptySpace pref="43" max="32767" attributes="0"/>
+              <EmptySpace min="-2" pref="51" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="fnameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="fnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="lnameTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="lnameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="ageTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ageLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="genderTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="genderLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="emailLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="emailTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="typeTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="typeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="dateLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="dateTextField" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="messageScrollPanel" min="-2" max="-2" attributes="0"/>
+                  <Component id="messageLabel" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="47" max="32767" attributes="0"/>
           </Group>
       </Group>
     </DimensionLayout>
@@ -154,23 +184,6 @@
         <Property name="text" type="java.lang.String" value="Type:"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JComboBox" name="typeComboBox">
-      <Properties>
-        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
-          <StringArray count="2">
-            <StringItem index="0" value="New"/>
-            <StringItem index="1" value="Existing"/>
-          </StringArray>
-        </Property>
-        <Property name="selectedIndex" type="int" value="-1"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="typeComboBoxActionPerformed"/>
-      </Events>
-      <AuxValues>
-        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
-      </AuxValues>
-    </Component>
     <Component class="javax.swing.JLabel" name="messageLabel">
       <Properties>
         <Property name="text" type="java.lang.String" value="Message:"/>
@@ -191,10 +204,21 @@
         </Component>
       </SubComponents>
     </Container>
-    <Component class="javax.swing.JLabel" name="photoLabel">
+    <Component class="javax.swing.JTextField" name="typeTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="genderLabel">
       <Properties>
-        <Property name="text" type="java.lang.String" value="Photo:"/>
+        <Property name="text" type="java.lang.String" value="Gender"/>
       </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="genderTextField">
+    </Component>
+    <Component class="javax.swing.JLabel" name="dateLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Date"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="dateTextField">
     </Component>
   </SubComponents>
 </Form>
